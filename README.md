@@ -29,5 +29,6 @@ The model was trained for ten epochs in your notebook, which means it saw all of
    
    ANS: In the first test image, the model's prediction is directly compared to the label from the Fashion-MNIST dataset. This image's true label is "Ankle boot," which corresponds to the right category in the dataset. If the model also predicts "Ankle boot," it indicates that it accurately identified the image. If it forecasts a different class, this is considered a misclassification, indicating that the model's ability to distinguish between comparable clothing items need further refinement.
    
-10. What could be done to improve the model’s accuracy?
+6. What could be done to improve the model’s accuracy?
+   
    ANS: To improve the accuracy of the model, add more layers or neurons to allow it to learn more detailed information from the photos. Using strategies like as **dropout** and **data augmentation** can improve model generalization and prevent overfitting. Increasing the number of training epochs, adjusting the learning rate, or using a **convolutional neural network (CNN)** instead of a simple dense model can all dramatically improve performance, as CNNs are considerably better at recognizing patterns in images.
